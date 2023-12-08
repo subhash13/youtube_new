@@ -1,0 +1,28 @@
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video{
+    margin: 10px;
+}
+.channelIcon{
+    margin-right: 18px;
+}
+.details{
+    display: flex;
+    align-items: start;
+    width: 400px;
+}
+.thumbnail img{
+    border-radius: 8px;
+}
+.channelIcon img{
+    border-radius: 50%;
+}
+.details h2{
+    font-size: 19px;
+}
+.details p{
+    color: rgb(86, 86, 86);
+}
